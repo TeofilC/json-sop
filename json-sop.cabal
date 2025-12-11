@@ -19,6 +19,7 @@ tested-with:         GHC==8.10.7
                    , GHC==9.6.6
                    , GHC==9.8.2
                    , GHC==9.10.1
+                   , GHC==9.12.1
 
 source-repository head
   type:                git
@@ -28,7 +29,7 @@ library
   exposed-modules:     Generics.SOP.JSON
                        Generics.SOP.JSON.Model
   other-modules:       Generics.SOP.Util.PartialResult
-  build-depends:       base                 >= 4.11  && < 4.21,
+  build-depends:       base                 >= 4.11  && < 4.22,
                        generics-sop         >= 0.2.3 && < 0.6,
 
                        -- lens-sop changed API in 0.3
